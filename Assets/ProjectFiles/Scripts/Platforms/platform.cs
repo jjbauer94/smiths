@@ -6,7 +6,13 @@ public class platform : MonoBehaviour
 {
 	public GameObject movePointPrefab;
 	public Vector3[] movePointLocation;
-	[SerializeField] private List<GameObject> movePointList = new List<GameObject>();
+
+	[SerializeField]
+	private List<Mail> inbox;
+	[SerializeField]
+	private List<Mail> outbox;
+	[SerializeField]
+	private List<GameObject> movePointList = new List<GameObject>();
 
 	private GameObject GO;
 	private Transform TR;
@@ -14,6 +20,9 @@ public class platform : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		inbox = new List<Mail>();
+		outbox = new List<Mail>();
+
 		GO = gameObject;
 		TR = transform;
 
@@ -42,5 +51,15 @@ public class platform : MonoBehaviour
 	void Update ()
 	{
 	
+	}
+
+	//Stores any mail received
+	void receiveMail(Mail message)
+	{
+		inbox.Add(message);
+	}
+
+	void sendMail(Mail message)
+	{
 	}
 }
