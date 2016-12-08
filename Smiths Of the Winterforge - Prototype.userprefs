@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="Smiths Of the Winterforge - Prototype.CSharp.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ProjectFiles\Scripts\mangers\platMan.cs">
+    <Files>
+      <File FileName="Assets\ProjectFiles\Scripts\mangers\platMan.cs" Line="14" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
